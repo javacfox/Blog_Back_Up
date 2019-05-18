@@ -100,7 +100,7 @@ jsonContent:
       content: false
       slug: false
       updated: false
-      comments: false
+      comments: true
       link: false
       permalink: false
       excerpt: false
@@ -110,3 +110,21 @@ jsonContent:
 # 关键字keyWords
 sitemap:
     path: sitemap.xml
+
+# 插件宠物动画
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-hijiki
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
